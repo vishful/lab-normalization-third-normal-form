@@ -26,7 +26,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 
 ## Table
 
-![Image description](https://i1.faceprep.in/ProGrad/sql_forms1.png)
+![Image description](https://i1.faceprep.in/ProGrad/sql_forms2.png)
 
 ## PROGRESSION 1:
 1. Check whether the given table is in First Normal form (1NF).
