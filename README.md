@@ -2,12 +2,9 @@
 
 # ProGrad Lab | THIRD NORMAL FORM
 
-
-
-
 ## What Should You Do
 ```
-Go to any word processor like windows - MS word or libre office in Ubuntu.
+Go to any word processor like Windows MS word or libre office in Ubuntu.
 Complete the assignment and upload the table definition in github
 ```
 
@@ -25,23 +22,26 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ## Instructions
 
 1. ***Read the instructions and progressions carefully.*** 
-2. ***Refer to the sample table User_Personal as given below;***
+2. ***Refer to the sample table User_Personal given below***
 
+## Table
 
+![Image description](https://i1.faceprep.in/ProGrad/sql_forms1.png)
 
 ## PROGRESSION 1:
-1. **Check whether the given table is in 1st Normal form.**
-2. **If yes then check whether the table is in 2nd Normal form.**
+1. Check whether the given table is in First Normal form (1NF).
+2. If yes, then check whether the table is in 2nd Normal form.
 
 ## PROGRESSION 2:
-1. **Convert the table to 3rd Normal form.**
+1. Convert the table to 3rd Normal form.
 
 ## BONUS
-Consider a relation Movies_Screened with attributes Theatre, Movie, Day, Time, and Certificate. Sample tuples are as follows:
+Consider a relation Movies_Screened with attributes Theatre, Movie, Day, Time, and Age restriction. Sample tuples are as follows:
 
-Movie Image
+![Image description](https://i1.faceprep.in/ProGrad/sql_forms4.png)
 
-Each movie is assigned a certificate by the Indian Board of Film Certification; the certificate value 15 means that nobody younger than 15 years of age can see this movie in a cinema. The same theatre can show a movie on multiple times during a day, and may show different movies at the same time (on different screens).
+Each movie is assigned an age restriction by the Board of Film Certification; if the age restriction is mentioned 15, it means that nobody younger than 15 years of age can watch this movie in a theatre. The same theatre can show a movie on different times during a day, and may show different movies at the same time (on different screens).
 (a) Does this relation violate the second normal form requirements? Explain.
 (b) Decompose this relation into BCNF, and explain why the resulting relations are in BCNF.
 
+Happy Coding ❤️
