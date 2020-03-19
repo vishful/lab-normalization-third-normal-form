@@ -36,3 +36,12 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 ## PROGRESSION 2:
 1. **Convert the table to 3rd Normal form.**
 
+## BONUS
+Consider a relation Movies_Screened with attributes Theatre, Movie, Day, Time, and Certificate. Sample tuples are as follows:
+
+Movie Image
+
+Each movie is assigned a certificate by the Indian Board of Film Certification; the certificate value 15 means that nobody younger than 15 years of age can see this movie in a cinema. The same theatre can show a movie on multiple times during a day, and may show different movies at the same time (on different screens).
+(a) Does this relation violate the second normal form requirements? Explain.
+(b) Decompose this relation into BCNF, and explain why the resulting relations are in BCNF.
+
